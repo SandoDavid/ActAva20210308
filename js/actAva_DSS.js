@@ -1,4 +1,9 @@
 
+function mostraAlertaDSS(){
+  alert("Alerta!");
+}
+
+
 
 function passaSeguentDSS(objRebut){
   let idObjPregAct = objRebut.parentElement.parentElement.id; 
@@ -39,3 +44,4 @@ function amagaElementDSS(idRebut){
 
 
 }
+
