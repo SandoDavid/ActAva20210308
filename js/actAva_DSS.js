@@ -1,0 +1,3 @@
+function mostraAlertaDSS(){
+  alert("Alerta!");
+}

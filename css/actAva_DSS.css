@@ -1,0 +1,10 @@
+.botonsDSS {
+   display: flex;
+   justify-content: space-between;
+ }
+ article{
+   display: none;
+ }
+#enunciat_1{
+   display: inline;
+ }
