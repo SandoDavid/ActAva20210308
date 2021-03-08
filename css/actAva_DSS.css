@@ -1,3 +1,6 @@
 .botonsDSS {
    display: flex;
  }
+ #enunciat_1, #enunciat_2{
+  display: none;
+}
