@@ -125,7 +125,9 @@ article {
 article span.titol {
   font-size: 6em;
 }
-
+#enunciat_1, #enunciat_2{
+  display: none;
+}
 article span.subtitol {
   font-size: 4em;
 }
