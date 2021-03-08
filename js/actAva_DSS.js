@@ -1,6 +1,4 @@
-function mostraAlertaJPC(){
-  alert("Alerta!");
-}
+
 
 function passaSeguentDSS(objRebut){
   let idObjPregAct = objRebut.parentElement.parentElement.id; 
@@ -38,4 +36,6 @@ function mostraElementDSS(idRebut){
 function amagaElementDSS(idRebut){
   document.getElementById(idRebut).classList.remove("elementVisibleDSS");
   document.getElementById(idRebut).classList.add("elementOcultDSS");
+
+
 }
