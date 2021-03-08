@@ -10,15 +10,16 @@
   </head>
   <body>
     <main>
-      <article>
-        <span class="titol negre">MP06 - UF03<br>Activitat avaluativa</span>
+      <article class="elementVisibleDSS" id="enunciat_0">
+        <span class="titol negre">MP06  UF03<br>Activitat avaluativa</span>
         <span class="subtitolText blanc">dilluns, 8 de març de 2021</span>
         <div class="botonsDSS">
-          <button class="boto inactiu" disabled onclick="mostraAlerta();">&lt;&lt;&nbsp;Anterior</button>
-          <button class="boto actiu" onclick="mostraAlerta();">Següent &gt;&gt;</button>
+
+          <button class="boto inactiu" disabled onclick="passaAnteriorDSS(this);">&lt;&lt;&nbsp;Anterior</button>
+          <button class="boto actiu" onclick="passaSeguentDSS(this);">Següent &gt;&gt;</button>
         </div>
       </article>
-      <article id="enunciat_1">
+      <article class="elementOcultDSS" id="enunciat_1">
         <span class="subtitol negre">Exercici 1</span>
         <div>
           <div class="enunciat">
@@ -39,11 +40,12 @@
           </div>
         </div>
         <div class="botonsDSS">
-          <button class="boto actiu" onclick="mostraAlerta();">&lt;&lt;&nbsp;Anterior</button>
-          <button class="boto actiu" onclick="mostraAlerta();">Següent&nbsp;&gt;&gt;</button>
+      enunciat03SandovalDavid
+          <button class="boto actiu" onclick="passaAnteriorDSS(this);">&lt;&lt;&nbsp;Anterior</button>
+          <button class="boto actiu" onclick="passaSeguentDSS(this);">Següent&nbsp;&gt;&gt;</button>
         </div>
       </article>
-      <article id="enunciat_2">
+      <article class="elementOcultDSS" id="enunciat_2">
         <span class="subtitol negre">Exercici 2</span>
         <div>
           <div class="enunciat">
@@ -75,14 +77,15 @@
           </div>
         </div>
         <div class="botonsDSS">
-          <button class="boto actiu" onclick="mostraAlerta();">&lt;&lt;&nbsp;Anterior</button>
-          <button class="boto actiu" onclick="mostraAlerta();">Següent&nbsp;&gt;&gt;</button>
+
+          <button class="boto actiu" onclick="passaAnteriorDSS(this);">&lt;&lt;&nbsp;Anterior</button>
+          <button class="boto actiu" onclick="passaSeguentDSS(this);">Següent&nbsp;&gt;&gt;</button>
         </div>
       </article>
     </main>
 
-    <script src="./js/actAva_JPC.js"></script>
-    <script src="../js/matrius.js"></script>
-    <script src="../js/operacions.js"></script>
+    <script src="./js/actAva_DSS.js"></script>
+    <script src="./js/matrius.js"></script>
+    <script src="./js/operacions.js"></script>
   </body>
 </html>
