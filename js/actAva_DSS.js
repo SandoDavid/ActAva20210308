@@ -1,3 +1,5 @@
-function mostraAlertaJPC(){
+
+function mostraAlertaDSS(){
+
   alert("Alerta!");
 }

@@ -1,6 +1,7 @@
 .botonsDSS {
-   display: justify-content;
+   display: justify;
  }
  #enunciat_1, #enunciat_2{
-   display: none;
- }
+  display: none;
+}
+
