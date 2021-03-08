@@ -1,0 +1,10 @@
+.botonsDSS {
+  display: flex;
+  justify-content: space-between;
+}
+.elementVisibleDSS{
+ display: flex;
+}
+.elementOcultDSS{
+ display: none;
+}
