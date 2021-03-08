@@ -1,3 +1,0 @@
-function mostraAlertaJPC(){
-  alert("Alerta!");
-}
